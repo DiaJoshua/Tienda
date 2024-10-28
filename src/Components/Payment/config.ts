@@ -1,5 +1,5 @@
 const config = {
-    host_url: process.env.REACT_APP_HOST_URL || 'http://localhost:3000',
+    host_url: process.env.REACT_APP_HOST_URL || 'https://tienda-backend-au3t.onrender.com',
     path_prefix: process.env.REACT_APP_PATH_PREFIX || '/',
     maya_checkout: {
       url: 'https://pg-sandbox.paymaya.com/checkout/v1/checkouts',
