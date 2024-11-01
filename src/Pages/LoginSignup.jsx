@@ -360,7 +360,8 @@ const LoginSignup = () => {
             )}
             <p
               onClick={() => setForgotPasswordMode(false)}
-              className="loginsignup-login"
+              className="loginsignup-login" 
+              style={{ cursor: "pointer", fontWeight: "bold", textDecoration: "underline"}}
             >
               Back to Login
             </p>
